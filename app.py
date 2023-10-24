@@ -250,8 +250,8 @@ txt('**Bachelor of technology** ‑ BTech in Computer Science and Engineering, *
 '01/05/2017 – 30/05/2021')
 st.markdown('''
 - CGPA: `8.01`/10
-- Thesis: [`Eth‑Ocracy : `Ethereum Blockchain based Voting System`](link_to_project_report)
-- Minor Project: [`Video Recommendation System`](link_to_project_report)
+- Thesis: [`Eth‑Ocracy: Ethereum Blockchain based Voting System`]("https://drive.google.com/drive/folders/1VHybcFZ63F77f2S4l3YbyE24C8zjT2hY?zx=8ejbmhtpbefd")
+- Minor Project: [`Video Recommendation System`]("https://drive.google.com/drive/folders/1NfwB24ADDKuEFIjGW2URhggdLh4M9vbM?zx=8ejbmhtpbefd")
 ''')
 
 
