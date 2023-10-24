@@ -248,10 +248,13 @@ txt('**Master of Science** ‑ MS in Applied Computer Science with specializatio
 
 txt('**Bachelor of technology** ‑ BTech in Computer Science and Engineering, *Guru Gobind Singh Indraprastha University*, India',
 '01/05/2017 – 30/05/2021')
-st.markdown('''
+minor = "https://drive.google.com/drive/folders/1NfwB24ADDKuEFIjGW2URhggdLh4M9vbM?zx=8ejbmhtpbefd"
+major = "https://drive.google.com/drive/folders/1VHybcFZ63F77f2S4l3YbyE24C8zjT2hY?zx=8ejbmhtpbefd"
+st.markdown(f'''
 - CGPA: `8.01`/10
-- Thesis: [`Eth‑Ocracy: Ethereum Blockchain based Voting System`]("https://drive.google.com/drive/folders/1VHybcFZ63F77f2S4l3YbyE24C8zjT2hY?zx=8ejbmhtpbefd")
-- Minor Project: [`Video Recommendation System`]("https://drive.google.com/drive/folders/1NfwB24ADDKuEFIjGW2URhggdLh4M9vbM?zx=8ejbmhtpbefd")
+- Thesis: [`Eth‑Ocracy: Ethereum Blockchain based Voting System`] - [Project Report Here]({major})
+            
+- Minor Project: [`Video Recommendation System`] - [Project Report Here]({minor})
 ''')
 
 
