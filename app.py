@@ -41,7 +41,6 @@ with open(resume_file, "rb") as pdf_file:
 
 profile_pic = Image.open(profile_pic)
 
-
 # --- HERO SECTION ---
 container = st.container()
 with container:
@@ -57,6 +56,8 @@ with container:
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
+        dds = "https://www.digitaldankeschoen.com/"
+        st.markdown(f"Developing - [👉Digital Danke Schön👈]({dds})")
         st.write("📫", EMAIL)
         st.write("🏠", ADDRESS)
         st.write("📚📖🏫", STUDY)
